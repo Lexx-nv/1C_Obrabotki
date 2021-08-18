@@ -106,6 +106,7 @@
 			<Template>МакетОтчет</Template>
 			<Template>МакетПроверка</Template>
 			<Template>МакетРасширенный</Template>
+			<Template>МакетТестовыйДляGitHub</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>
 </MetaDataObject>
