@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Родитель</dataPath>
+			<field>Родитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВладелецКод</dataPath>
+			<field>ВладелецКод</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ВладелецКод</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВалютаВзаиморасчетов</dataPath>
+			<field>ВалютаВзаиморасчетов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Владелец</dataPath>
+			<field>Владелец</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВладелецНаименование</dataPath>
+			<field>ВладелецНаименование</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ВладелецНаименование</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВладелецИНН</dataPath>
+			<field>ВладелецИНН</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ВладелецИНН</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияДанных</dataPath>
+			<field>ВерсияДанных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Код</dataPath>
+			<field>Код</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПометкаУдаления</dataPath>
+			<field>ПометкаУдаления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предопределенный</dataPath>
+			<field>Предопределенный</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭтоГруппа</dataPath>
+			<field>ЭтоГруппа</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ХранилищеКартинкаОплата</dataPath>
+			<field>ХранилищеКартинкаОплата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Исполнитель</dataPath>
+			<field>Исполнитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Наименование</dataPath>
+			<field>Наименование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтрДопСоглашения</dataPath>
+			<field>СтрДопСоглашения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автор</dataPath>
+			<field>Автор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентКомиссионногоВознаграждения</dataPath>
+			<field>ПроцентКомиссионногоВознаграждения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпособРасчетаКомиссионногоВознаграждения</dataPath>
+			<field>СпособРасчетаКомиссионногоВознаграждения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АвтоматическаяПролонгация</dataPath>
+			<field>АвтоматическаяПролонгация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипЦен</dataPath>
+			<field>ТипЦен</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДоговора</dataPath>
+			<field>ВидДоговора</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИспользуетсяПриОбменеДанными</dataPath>
+			<field>ИспользуетсяПриОбменеДанными</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НеИспользовать</dataPath>
+			<field>НеИспользовать</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УчетАгентскогоНДС</dataPath>
+			<field>УчетАгентскогоНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАгентскогоДоговора</dataPath>
+			<field>ВидАгентскогоДоговора</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РасчетыВУсловныхЕдиницах</dataPath>
+			<field>РасчетыВУсловныхЕдиницах</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РеализацияНаЭкспорт</dataPath>
+			<field>РеализацияНаЭкспорт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидВзаиморасчетов</dataPath>
+			<field>ВидВзаиморасчетов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СрокОплаты</dataPath>
+			<field>СрокОплаты</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СрокДействияНачало</dataPath>
+			<field>СрокДействияНачало</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Срок действия с</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СрокДействия</dataPath>
+			<field>СрокДействия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Срок действия по</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УстановленСрокОплаты</dataPath>
+			<field>УстановленСрокОплаты</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДеятельности</dataPath>
+			<field>ВидДеятельности</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УчитыватьНДС</dataPath>
+			<field>УчитыватьНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаименованиеДляСчетаФактурыНаАванс</dataPath>
+			<field>НаименованиеДляСчетаФактурыНаАванс</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПорядокРегистрацииСчетовФактурНаАвансПоДоговору</dataPath>
+			<field>ПорядокРегистрацииСчетовФактурНаАвансПоДоговору</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КодРаздел7ДекларацииНДС</dataPath>
+			<field>КодРаздел7ДекларацииНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НалоговыйАгентПоОплате</dataPath>
+			<field>НалоговыйАгентПоОплате</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КраткоеСодержание</dataPath>
+			<field>КраткоеСодержание</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Состояние</dataPath>
+			<field>Состояние</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПодписания</dataPath>
+			<field>ДатаПодписания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сумма</dataPath>
+			<field>Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответсвенный</dataPath>
+			<field>Ответсвенный</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатьяДДС</dataPath>
+			<field>СтатьяДДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеОрганизации</dataPath>
+			<field>ПодразделениеОрганизации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаРегистрации</dataPath>
+			<field>ДатаРегистрации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтрОплата</dataPath>
+			<field>СтрОплата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтавкаНДС</dataPath>
+			<field>СтавкаНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФайлПутьДоФайла</dataPath>
+			<field>ФайлПутьДоФайла</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Путь до файла</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОплатаВидДней</dataPath>
+			<field>ОплатаВидДней</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оплата вид дней</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОплатаПроцент</dataPath>
+			<field>ОплатаПроцент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оплата процент</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОплатаДтОплаты</dataPath>
+			<field>ОплатаДтОплаты</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оплата дт оплаты</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОплатаВидОплаты</dataPath>
+			<field>ОплатаВидОплаты</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оплата вид оплаты</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОплатаДни</dataPath>
+			<field>ОплатаДни</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оплата дни</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОплатаСуммаОплаты</dataPath>
+			<field>ОплатаСуммаОплаты</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оплата сумма оплаты</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ДоговорыКонтрагентов.Владелец.Код,
+	ДоговорыКонтрагентов.Владелец.Наименование,
+	ДоговорыКонтрагентов.Владелец.ИНН,
+	ДоговорыКонтрагентов.Ссылка,
+	ДоговорыКонтрагентов.ВерсияДанных,
+	ДоговорыКонтрагентов.ПометкаУдаления,
+	ДоговорыКонтрагентов.Предопределенный,
+	ДоговорыКонтрагентов.Владелец,
+	ДоговорыКонтрагентов.Родитель,
+	ДоговорыКонтрагентов.ЭтоГруппа,
+	ДоговорыКонтрагентов.Код,
+	ДоговорыКонтрагентов.Наименование,
+	ДоговорыКонтрагентов.ВалютаВзаиморасчетов,
+	ДоговорыКонтрагентов.Организация,
+	ДоговорыКонтрагентов.ПроцентКомиссионногоВознаграждения,
+	ДоговорыКонтрагентов.СпособРасчетаКомиссионногоВознаграждения,
+	ДоговорыКонтрагентов.ТипЦен,
+	ДоговорыКонтрагентов.ВидДоговора,
+	ДоговорыКонтрагентов.УчетАгентскогоНДС,
+	ДоговорыКонтрагентов.ВидАгентскогоДоговора,
+	ДоговорыКонтрагентов.РасчетыВУсловныхЕдиницах,
+	ДоговорыКонтрагентов.РеализацияНаЭкспорт,
+	ДоговорыКонтрагентов.ВидВзаиморасчетов,
+	ДоговорыКонтрагентов.Дата,
+	ДоговорыКонтрагентов.Номер,
+	ДоговорыКонтрагентов.СрокДействия,
+	ДоговорыКонтрагентов.УстановленСрокОплаты,
+	ДоговорыКонтрагентов.СрокОплаты,
+	ДоговорыКонтрагентов.НаименованиеДляСчетаФактурыНаАванс,
+	ДоговорыКонтрагентов.ПорядокРегистрацииСчетовФактурНаАвансПоДоговору,
+	ДоговорыКонтрагентов.ИспользуетсяПриОбменеДанными,
+	ДоговорыКонтрагентов.НалоговыйАгентПоОплате,
+	ДоговорыКонтрагентов.Комментарий,
+	ДоговорыКонтрагентов.НеИспользовать,
+	ДоговорыКонтрагентов.Состояние,
+	ДоговорыКонтрагентов.ДатаПодписания,
+	ДоговорыКонтрагентов.Сумма,
+	ДоговорыКонтрагентов.Ответсвенный,
+	ДоговорыКонтрагентов.СтатьяДДС,
+	ДоговорыКонтрагентов.ВидДеятельности,
+	ДоговорыКонтрагентов.ПодразделениеОрганизации,
+	ДоговорыКонтрагентов.КраткоеСодержание,
+	ДоговорыКонтрагентов.АвтоматическаяПролонгация,
+	ДоговорыКонтрагентов.Автор,
+	ДоговорыКонтрагентов.Исполнитель,
+	ДоговорыКонтрагентов.ДатаРегистрации,
+	ДоговорыКонтрагентов.СрокДействияНачало,
+	ДоговорыКонтрагентов.СтрДопСоглашения,
+	ДоговорыКонтрагентов.СтрОплата,
+	ДоговорыКонтрагентов.ХранилищеКартинкаОплата,
+	ДоговорыКонтрагентов.УчитыватьНДС,
+	ДоговорыКонтрагентов.СтавкаНДС,
+	ДоговорыКонтрагентов.КодРаздел7ДекларацииНДС,
+	ДоговорыКонтрагентов.Представление,
+	ДоговорыКонтрагентовСсылкиНаФайлы.ПутьДоФайла КАК ФайлПутьДоФайла,
+	ДоговорыКонтрагентовОплата.ВидОплаты Как ОплатаВидОплаты,
+	ДоговорыКонтрагентовОплата.ВидДней Как ОплатаВидДней,
+	ДоговорыКонтрагентовОплата.Дни Как ОплатаДни,
+	ДоговорыКонтрагентовОплата.Процент Как ОплатаПроцент,
+	ДоговорыКонтрагентовОплата.Сумма КАК ОплатаСуммаОплаты,
+	ДоговорыКонтрагентовОплата.ДтОплаты Как ОплатаДтОплаты
+ИЗ
+	Справочник.ДоговорыКонтрагентов КАК ДоговорыКонтрагентов
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ДоговорыКонтрагентов.СсылкиНаФайлы КАК ДоговорыКонтрагентовСсылкиНаФайлы
+		ПО ДоговорыКонтрагентов.Ссылка = ДоговорыКонтрагентовСсылкиНаФайлы.Ссылка
+			И (ДоговорыКонтрагентовСсылкиНаФайлы.НомерСтроки = 1)
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ДоговорыКонтрагентов.Оплата КАК ДоговорыКонтрагентовОплата
+		ПО ДоговорыКонтрагентов.Ссылка = ДоговорыКонтрагентовОплата.Ссылка
+			И (ДоговорыКонтрагентовОплата.НомерСтроки = 1)</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Выгрузка договоров по контрагентам</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ссылка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВладелецНаименование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВладелецИНН</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВладелецКод</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СрокДействияНачало</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СрокДействия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АвтоматическаяПролонгация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Автор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВалютаВзаиморасчетов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ВерсияДанных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидАгентскогоДоговора</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидВзаиморасчетов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидДеятельности</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидДоговора</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Владелец</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дата</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПодписания</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаРегистрации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Исполнитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИспользуетсяПриОбменеДанными</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Код</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КодРаздел7ДекларацииНДС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Комментарий</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КраткоеСодержание</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Наименование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НаименованиеДляСчетаФактурыНаАванс</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НалоговыйАгентПоОплате</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НеИспользовать</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ответсвенный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПодразделениеОрганизации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПометкаУдаления</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПорядокРегистрацииСчетовФактурНаАвансПоДоговору</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Предопределенный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентКомиссионногоВознаграждения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РасчетыВУсловныхЕдиницах</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РеализацияНаЭкспорт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Родитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Состояние</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СпособРасчетаКомиссионногоВознаграждения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СрокОплаты</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтавкаНДС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтатьяДДС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтрДопСоглашения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтрОплата</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сумма</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипЦен</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>УстановленСрокОплаты</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>УчетАгентскогоНДС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>УчитыватьНДС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ХранилищеКартинкаОплата</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЭтоГруппа</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФайлПутьДоФайла</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОплатаВидДней</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОплатаВидОплаты</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОплатаДни</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОплатаДтОплаты</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОплатаПроцент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОплатаСуммаОплаты</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ВладелецНаименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>
